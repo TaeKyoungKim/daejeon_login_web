@@ -62,4 +62,7 @@ router.post('/login',async (req, res, next) => {
         })
     })
 
+router.get('/main' ,(req, res , next)=>{
+    res.render('main')
+})
 module.exports = router;
